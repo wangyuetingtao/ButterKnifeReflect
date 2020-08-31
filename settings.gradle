@@ -1,0 +1,4 @@
+include ':butter-knife-reflect'
+include ':butter-knife-annotation'
+include ':app'
+rootProject.name = "ButterKnifeRelect"
