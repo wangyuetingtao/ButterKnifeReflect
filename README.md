@@ -1,5 +1,5 @@
 # ButterKnifeReflect
-使用Apt实现一个ButterKnife Ioc容器，ButterKnife初始版本，使用反射调用对应Activity的View Bind，后续使用非反射方式实现
+使用Apt实现一个ButterKnife Ioc容器，ButterKnife属于编译期注解，运行时使用反射调用对应Activity的View Bind。为了提升运行时性能和效率，ButterKnife做了类缓存。
 
 * 使用谷歌AutoService注解，完成Processor在META-INF services目录下的自动注册
 * 生成代码使用StringBuilder拼接，非常容易出错，可以考虑使用JavaPoet
